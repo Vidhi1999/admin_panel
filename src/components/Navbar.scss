@@ -1,0 +1,104 @@
+.NavbarCustom {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+  }
+  
+  .Logo {
+    margin: 2px;
+  }
+  
+  .dropdown-toggle::after {
+    display: none;
+  }
+  
+  .Navitemscontent {
+    font-size: 25px;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:focus,
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #13bae5;
+    transition: ease-in-out 0.2s;
+  }
+  .navbar-light .navbar-nav .nav-link:focus,
+  .navbar-light .navbar-nav .nav-link:after {
+    color: #13bae5;
+    transition: ease-in-out 0.2s;
+  }
+  
+  @media (min-width: 992px) {
+    .dropdown-only {
+      display: none;
+    }
+  
+    .navbar-expand-lg .navbar-nav .nav-link {
+      padding-right: 1.5rem;
+      padding-left: 0.5rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .dropdown {
+      display: none;
+    }
+    .nav-link {
+      display: flex;
+      padding: 0.5rem 1rem;
+    }
+    .navbar-light .navbar-nav .nav-link {
+      color: rgba(0, 0, 0, 0.5);
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
+  .dropdown-content {
+    font-size: 25px;
+    color: #00000080;
+  }
+  
+  .dropdown-content:hover {
+    color: #13bae5;
+    transition: ease-in-out 0.2s;
+  }
+  
+  /* for customer navbar */
+  
+  .Navbar-transparent {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:focus,
+  .navbar-dark .navbar-nav .nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgb(255, 255, 255) !important;
+    transition: ease-in-out 0.2s;
+  }
+  .navbar-dark .navbar-nav .nav-link:focus,
+  .navbar-dark .navbar-nav .nav-link:after {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgb(255, 255, 255) !important;
+    transition: ease-in-out 0.2s;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  
+  .navbar-dark .navbar-nav .active > .nav-link,
+  .navbar-dark .navbar-nav .nav-link.active,
+  .navbar-dark .navbar-nav .nav-link.show,
+  .navbar-dark .navbar-nav .show > .nav-link {
+    color: #fff !important;
+  }
+  
+  .dropdown-back-cover {
+    background-color: #50b1b7;
+  }
+  
