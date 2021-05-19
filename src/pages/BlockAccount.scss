@@ -1,0 +1,110 @@
+.resaccount{
+    display: flex;
+    margin-top: 100px;
+}
+.resaccount-div {
+    padding-left: 450px;
+    padding-top: 30px;
+    @media screen and (max-width: 1024px) and (min-width: 768px) {
+      padding-left: 450px;
+      padding-right: 40px;
+    }
+    @media screen and (max-width: 768px) {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  }
+  .resaccount-card {
+    width: 500px;
+    height: 200px;
+    margin-left: 5em;
+    border: 1px solid rgb(150, 150, 150);
+    @media screen and (max-width: 1024px) {
+      width: fit-content;
+      min-width: 350px;
+      margin-left: 0%;
+    }
+  }
+  .resaccount-label {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 1.2rem;
+  }
+  
+  .form-control {
+    width: 74%;
+    height: 50%;
+    position: relative;
+    left: 20px;
+  }
+
+  .resaccount-blue-btn {
+    width: 74%;
+    height: 45px;
+    font-size: 1.2rem;
+    background-color: #13bae5;
+    color: white;
+    border: 1px solid #13bae5;
+    border-radius: 5px;
+    margin: 15px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    left: 5px;
+  
+    &:active {
+      box-shadow: 1px 1px 1px 1px rgb(180, 168, 168);
+    }
+  }
+  .view-resaccount{
+      display: flex;
+      flex-direction: row;
+  }
+  .view-resaccount-card{
+      width: 50vw;
+      height: 50px;
+      box-sizing: border-box;
+      //border:1px solid black;
+      margin: 10px;
+      box-shadow: 0px 0px 5px 5px rgb(202, 196, 196);
+      @media screen and (max-width: 768px) {
+          height: 80px;
+      }
+  }
+  .white-btn {
+    font-size: 15px;
+    font-weight: 500;
+    color: #1f68de;
+    background-color: #fdfdfd;
+    border: solid #707070;
+    border-radius: 2em;
+    border-width: 0.5px;
+    cursor: pointer;
+    text-align: auto;
+    padding: 10px 30px;
+    outline: none;
+    display: flex;
+    box-sizing: border-box;
+    margin: 0.2em auto;
+  }
+  .white-btn:hover {
+    color: #fdfdfd;
+    background-color: #1f68de;
+    transition: ease-in-out 0.1s;
+    text-decoration: none;
+  }
+  
+  .white-btn:active {
+    box-shadow: 1px 1px 1px 1px rgb(180, 168, 168);
+    /* margin: 0.1px 0.1px; */
+    text-align: justify;
+  }
+  .resaccount-name{
+      float: left; 
+      width: 50%;  
+      padding-top: 0.5em;
+      word-break: break-all;
+      @media screen and (max-width: 768px) {
+        padding-top: 0%;
+    }
+  }
